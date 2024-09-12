@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/style.css';
-import '../styles/adaptivestyle.css';
-import Burgermenu from './burgermenu.js';
-import Navmenu from './navmenu.js';
+
+import Burgermenu from '../burgermenu/burgermenu.jsx';
+import Navmenu from '../navmenu/navmenu.jsx';
 
 class Header extends Component{
     render(){

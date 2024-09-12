@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/style.css';
-import '../styles/adaptivestyle.css';
+
 
 class Burgermenu extends Component{
     render(){

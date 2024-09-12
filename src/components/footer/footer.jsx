@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/style.css';
-import '../styles/adaptivestyle.css';
+
 
 class Fooster extends Component{
     render(){

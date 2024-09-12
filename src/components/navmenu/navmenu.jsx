@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/style.css';
-import '../styles/adaptivestyle.css';
-import mark from '../images/mark.svg';
+import mark from '../../images/mark.svg';
 
 class Navmenu extends Component{
     render(){

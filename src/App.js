@@ -1,14 +1,22 @@
 import './App.css';
-import Header from './components/header.js';
-import Fooster from './components/footer.js';
-import Cards from './components/cards.js'
+import Header from './components/header/header.jsx';
+import Fooster from './components/footer/footer.jsx';
+import Cards from './components/cards/cards.jsx'
+import './styles/style.css'
+import './styles/adaptivestyle.css'
 function App() {
+ 
   return (
-    <div className="App">
+    
+
+      <div className="App">
       <Header/>
       <Cards/>
       <Fooster/>
     </div>
+    
+    
+    
   );
 }
 
