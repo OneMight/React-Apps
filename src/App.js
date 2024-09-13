@@ -4,20 +4,26 @@ import Fooster from './components/footer/footer.jsx';
 import Cards from './components/cards/cards.jsx'
 import './styles/style.css'
 import './styles/adaptivestyle.css'
-function App() {
- 
-  return (
-    
+import { Component } from 'react';
 
-      <div className="App">
-      <Header/>
-      <Cards/>
-      <Fooster/>
-    </div>
-    
-    
-    
-  );
+
+class App extends Component{
+ render(){
+   
+    const entireWord = "Sign in";
+    return (
+  
+
+        <div className="App">
+        <Header entire = {entireWord}/>
+        <Cards/>
+        <Fooster/>
+      </div>
+  
+  
+  
+);
+}
 }
 
 export default App;

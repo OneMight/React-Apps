@@ -5,6 +5,9 @@ import Navmenu from '../navmenu/navmenu.jsx';
 
 class Header extends Component{
     render(){
+
+      const {entire} = this.props;
+
         return(
             <header>
             <a href="index.html">
@@ -31,7 +34,7 @@ class Header extends Component{
               <p className="username" />
               <button id="Sign-up">
                 <span i18n="signup" className="i18n signup">
-                  Sign up
+                {entire}
                 </span>
               </button>
               <button id="Log-in">
