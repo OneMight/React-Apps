@@ -6,7 +6,7 @@ import imag3 from '../../images/imag3.png';
 import imag4 from '../../images/imag4.png';
 import imag5 from '../../images/imag5.png';
 import imag6 from '../../images/imag6.png';
-
+import './card.css';
 class Card extends Component{
     render()
     {

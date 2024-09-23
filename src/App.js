@@ -1,9 +1,8 @@
 import './App.css';
 import Header from './components/header/header.jsx';
 import Fooster from './components/footer/footer.jsx';
-import Cards from './components/cards/cards.jsx'
-import './styles/style.css'
-import './styles/adaptivestyle.css'
+import Cards from './components/cards/cards.jsx';
+import './styles/adaptivestyle.css';
 import { Component } from 'react';
 
 

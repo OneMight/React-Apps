@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import '../../styles/style.css';
-import '../../styles/adaptivestyle.css';
+import './cards.css';
 import Card from '../card/card.jsx';
-
+import '../../styles/adaptivestyle.css';
 
 
 class ConCards extends Component{

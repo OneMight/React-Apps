@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Burgermenu from '../burgermenu/burgermenu.jsx';
 import Navmenu from '../navmenu/navmenu.jsx';
+import './header.css';
+import '../../styles/adaptivestyle.css';
 
 class Header extends Component{
     render(){

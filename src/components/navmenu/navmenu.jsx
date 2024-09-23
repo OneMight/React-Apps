@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import mark from '../../images/mark.svg';
-
+import '../../styles/adaptivestyle.css';
 class Navmenu extends Component{
     render(){
             const links = [

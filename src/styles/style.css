@@ -1061,7 +1061,6 @@ footer{
 .footer-nav-menu > div{
     width: 23.5%;
     height: 249px;
-    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
